@@ -18,7 +18,11 @@ const Home = () => {
                         <ScreenHeaderBtn iconUrl={icons.logo} dimension='100%' />
                     ),
                     headerRight: () => (
-                        <ScreenHeaderBtn iconUrl={icons.menu} dimension='75%' />
+                        <ScreenHeaderBtn
+                            iconUrl={icons.menu}
+                            dimension='75%'
+                            handlePress={() => router.push("/drawer")}
+                        />
                     ),
                     headerTitle: "",
                 }}

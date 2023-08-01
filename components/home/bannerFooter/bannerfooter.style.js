@@ -42,6 +42,11 @@ const styles = StyleSheet.create({
     color: COLORS.white,
     fontFamily: FONT.jacquesFrancois,
   },
+  arrowBtn: {
+    width: 150,
+    justifyContent: "center",
+    alignItems: "center",
+  },
   downarrow: {
     width: 20,
     height: 20,
