@@ -15,13 +15,17 @@ const Home = () => {
                     headerStyle: { backgroundColor: COLORS.white },
                     headerShadowVisible: false,
                     headerLeft: () => (
-                        <ScreenHeaderBtn iconUrl={icons.logo} dimension='100%' />
+                        <ScreenHeaderBtn
+                            iconUrl={icons.logo} 
+                            dimension='100%'
+                            handlePress={() => router.push("/")}    
+                        />
                     ),
                     headerRight: () => (
                         <ScreenHeaderBtn
                             iconUrl={icons.menu}
                             dimension='75%'
-                            handlePress={() => router.push("/drawer")}
+                            handlePress={() => router.push("/appMenu")}
                         />
                     ),
                     headerTitle: "",
