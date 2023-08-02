@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity, Image, Linking } from "react-native";
 
-import styles from "./menufooter.style";
+import styles from "./moviemenufooter.style";
 
 const MenuFooter = ({ pressSignUp, pressLogIn, pressArrow }) => {
   return (

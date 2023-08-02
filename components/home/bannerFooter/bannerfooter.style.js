@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-import { COLORS, FONT, SIZES } from "../../../constants";
+import { COLORS, FONT, SIZES, LENGTH } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     gap: SIZES.small,
   },
   highlightBtn: {
-    width: 150,
+    width: LENGTH.short,
     borderWidth: 3,
     borderColor: COLORS.white,
     borderRadius: SIZES.xLarge,
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     fontFamily: FONT.jacquesFrancois,
   },
   voteBtn: {
-    width: 150,
+    width: LENGTH.short,
     borderColor: COLORS.primary,
     borderRadius: SIZES.xLarge,
     paddingHorizontal: SIZES.small,
@@ -38,12 +38,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   voteText: {
-    fontSize: SIZES.xxLarge,
+    fontSize: SIZES.xxxLarge,
     color: COLORS.white,
     fontFamily: FONT.jacquesFrancois,
   },
   arrowBtn: {
-    width: 150,
+    width: LENGTH.short,
     justifyContent: "center",
     alignItems: "center",
   },

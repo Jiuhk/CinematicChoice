@@ -7,7 +7,7 @@ const MenuItem = ({ route, title }) => {
     const router = useRouter();
 
     return (
-        <TouchableOpacity onPress={() => router.push({route})}>
+        <TouchableOpacity style={styles.itemContainer} onPress={() => router.push({route})}>
             <Text style={styles.appMenuItem}>{title}</Text>
         </TouchableOpacity>
     )

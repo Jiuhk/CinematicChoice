@@ -8,9 +8,15 @@ import Banner from "./home/banner/Banner";
 import MenuBody from "./appMenu/menuBody/MenuBody";
 import MenuFooter from "./appMenu/menuFooter/MenuFooter";
 
+// movie menu
+import MovieMenuBody from "./movieMenu/movieMenuBody/MovieMenuBody";
+import MovieMenuFooter from "./movieMenu/movieMenuFooter/MovieMenuFooter";
+
 export {
   ScreenHeaderBtn,
   Banner,
   MenuBody,
   MenuFooter,
+  MovieMenuBody,
+  MovieMenuFooter,
 };

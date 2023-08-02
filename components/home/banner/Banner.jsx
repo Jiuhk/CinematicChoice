@@ -43,7 +43,9 @@ const Banner = ({ }) => {
           </View>
       </View>
       <BannerFooter 
-        pressHighlight={() => router.push("/highlight")}
+        pressHighlight={() => 
+          {
+            router.push(`/movieMenu/${bannerFilm.id}`)}}
         pressVote={() => router.push("/vote")}
         pressArrow={() => {
           setFilmArrayId((filmArrayId + 1) % films.length);

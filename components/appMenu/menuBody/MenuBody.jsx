@@ -1,7 +1,7 @@
 import { View } from "react-native";
 import { useRouter } from "expo-router";
 
-import MenuItem from "../menuItem/MenuItem";
+import MenuItem from "../../common/menuItem/MenuItem";
 import styles from "./menubody.style";
 
 const MenuBody = () => {

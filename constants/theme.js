@@ -5,7 +5,10 @@ const COLORS = {
 
     black: "#171616",
     white: "#FFF6F6",
-    grey: "#D9D9D9"
+    grey: "rgba(217, 217, 217, 0.05)",
+
+    lightSecondary: "rgba(211, 46, 124, 0.8)",
+    greyer: "rgba(217, 217, 217, 0.4)",
 };
 
 const FONT = {
@@ -21,10 +24,19 @@ const SIZES = {
     medium: 16,
     large: 20,
     xLarge: 24,
-    xxLarge: 32,
-    xxxLarge: 40,
+    xxLarge: 28,
+    xxxLarge: 32,
+    xxxxLarge: 40,
+    big: 50,
     huge: 56,
 };
+
+const LENGTH = {
+    short: 150,
+    midshort: 200,
+    medium: 250,
+    long: 300,
+}
 
 const SHADOWS = {
     small: {
@@ -49,4 +61,4 @@ const SHADOWS = {
     },
 };
 
-export { COLORS, FONT, SIZES, SHADOWS };
+export { COLORS, FONT, SIZES, SHADOWS, LENGTH };

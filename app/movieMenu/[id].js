@@ -1,15 +1,17 @@
 import { SafeAreaView, ImageBackground } from "react-native";
-import { Stack, useRouter } from "expo-router";
+import { Stack, useRouter, useSearchParams } from "expo-router";
 
 import { COLORS, icons, images } from "../../constants";
-import { ScreenHeaderBtn, MenuBody, MenuFooter } from "../../components";
+import { ScreenHeaderBtn, MovieMenuBody, MovieMenuFooter } from "../../components";
 
-const Menu = () => {
+const MovieMenu = () => {
+  const params = useSearchParams();
   const router = useRouter()
+  const id = params.id;
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
-      <ImageBackground source={images.appmenu} resizeMode="cover" style={{flex: 1}}>
+      <ImageBackground source={images[`moviemenu${id}`]} resizeMode="cover" style={{flex: 1}}>
         <Stack.Screen
           options={{
             headerTransparent: true,
@@ -30,11 +32,11 @@ const Menu = () => {
             headerTitle: "",
           }}
         />
-        <MenuBody />
-        <MenuFooter />
+        <MovieMenuBody />
+        <MovieMenuFooter />
       </ImageBackground>
     </SafeAreaView >
   );
 };
 
-export default Menu;
+export default MovieMenu;
