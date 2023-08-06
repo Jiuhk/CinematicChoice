@@ -1,5 +1,6 @@
 // common
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
+import InfoContainer from "./common/infoContainer/InfoContainer";
 
 // home screen
 import Banner from "./home/banner/Banner";
@@ -14,6 +15,7 @@ import MovieMenuFooter from "./movieMenu/movieMenuFooter/MovieMenuFooter";
 
 export {
   ScreenHeaderBtn,
+  InfoContainer,
   Banner,
   MenuBody,
   MenuFooter,

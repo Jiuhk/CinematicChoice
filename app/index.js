@@ -1,8 +1,7 @@
-import { useState } from "react";
-import { View, ScrollView, SafeAreaView, ImageBackground } from "react-native";
+import { View, SafeAreaView } from "react-native";
 import { Stack, useRouter } from "expo-router";
 
-import { COLORS, SIZES, icons, images } from "../constants";
+import { COLORS, SIZES, icons } from "../constants";
 import { Banner, ScreenHeaderBtn } from "../components";
 
 const Home = () => {
@@ -44,3 +43,5 @@ const Home = () => {
 }
 
 export default Home;
+
+

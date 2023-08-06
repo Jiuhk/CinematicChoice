@@ -12,7 +12,7 @@ const MenuBody = () => {
         <View
           style={styles.appMenuContainer}
         >
-          <MenuItem route={"/"} title={"sypnosis"}/>
+          <MenuItem route={"/sypnosis"} title={"sypnosis"}/>
           <MenuItem route={"/"} title={"trailer"}/>
           <MenuItem route={"/"} title={"stills"}/>
           <MenuItem route={"/"} title={"soundtrack"}/>
