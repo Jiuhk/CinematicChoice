@@ -38,6 +38,13 @@ const LENGTH = {
     long: 300,
 }
 
+const HEIGHT = {
+    tiny: 150,
+    midtiny: 200,
+    average: 250,
+    tall: 300,
+}
+
 const SHADOWS = {
     small: {
         shadowColor: "#000",
@@ -61,4 +68,4 @@ const SHADOWS = {
     },
 };
 
-export { COLORS, FONT, SIZES, SHADOWS, LENGTH };
+export { COLORS, FONT, SIZES, SHADOWS, LENGTH, HEIGHT };

@@ -2,6 +2,8 @@ import heart from "../assets/icons/heart.png";
 import menu from "../assets/icons/menu.png";
 import logo from "../assets/icons/logo.png";
 import downarrow from "../assets/icons/downarrow.png";
+import arrowleft from "../assets/icons/arrowleft.png";
+import arrowright from "../assets/icons/arrowright.png";
 import search from "../assets/icons/search.png";
 import filter from "../assets/icons/filter.png";
 import left from "../assets/icons/left.png";
@@ -16,6 +18,8 @@ export default {
   menu,
   logo,
   downarrow,
+  arrowleft,
+  arrowright,
   search,
   filter,
   left,

@@ -1,24 +1,27 @@
 import { StyleSheet } from "react-native";
 
-import { COLORS, FONT, SIZES, LENGTH } from "../../../constants";
+import { COLORS, FONT, SIZES, LENGTH, HEIGHT } from "../../../constants";
 
 const styles = StyleSheet.create({
   infoContainer:{
-    flex: 1,
     width: LENGTH.medium,
-    height: SIZES.medium,
+    height: HEIGHT.tiny,
     borderWidth: 0,
     backgroundColor: COLORS.grey,
     borderRadius: SIZES.xxxLarge,
-    justifyContent: "center",
-    alignItems: "center",
-    marginVertical: SIZES.xSmall,
+    marginVertical: HEIGHT.tiny,
+    padding: SIZES.medium,
+  },
+  topicText: {
+    color: COLORS.white,
+    fontFamily: FONT.jacquesFrancois,
+    fontSize: SIZES.large,
+    marginBottom: SIZES.xLarge,
   },
   infoText: {
     color: COLORS.white,
     fontFamily: FONT.jacquesFrancois,
-    fontSize: SIZES.xxLarge,
-    // marginVertical: SIZES.small,
+    fontSize: SIZES.medium,
   }
 });
 
