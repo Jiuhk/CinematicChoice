@@ -14,7 +14,7 @@ const MenuBody = () => {
         >
           <MenuItem route={"/sypnosis"} title={"sypnosis"}/>
           <MenuItem route={"/"} title={"trailer"}/>
-          <MenuItem route={"/"} title={"stills"}/>
+          <MenuItem route={"/stills"} title={"stills"}/>
           <MenuItem route={"/"} title={"soundtrack"}/>
           <MenuItem route={"/review"} title={"review"}/>
           <VoteCount vote="40"/>
