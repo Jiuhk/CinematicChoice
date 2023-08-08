@@ -2,6 +2,7 @@
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 import InfoContainer from "./common/infoContainer/InfoContainer";
 import ReviewContainer from "./common/reviewContainer/ReviewContainer";
+import StillsContainer from "./common/stillsContainer/StillsContainer";
 import VoteFooter from "./common/voteFooter/VoteFooter";
 
 // home screen
@@ -19,6 +20,7 @@ export {
   ScreenHeaderBtn,
   InfoContainer,
   ReviewContainer,
+  StillsContainer,
   VoteFooter,
   Banner,
   MenuBody,
