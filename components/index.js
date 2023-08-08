@@ -1,6 +1,7 @@
 // common
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 import InfoContainer from "./common/infoContainer/InfoContainer";
+import ReviewContainer from "./common/reviewContainer/ReviewContainer";
 import VoteFooter from "./common/voteFooter/VoteFooter";
 
 // home screen
@@ -17,6 +18,7 @@ import MovieMenuFooter from "./movieMenu/movieMenuFooter/MovieMenuFooter";
 export {
   ScreenHeaderBtn,
   InfoContainer,
+  ReviewContainer,
   VoteFooter,
   Banner,
   MenuBody,
