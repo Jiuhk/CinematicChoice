@@ -11,7 +11,7 @@ const Home = () => {
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
             <Stack.Screen
                 options={{
-                    headerStyle: { backgroundColor: COLORS.white },
+                    headerStyle: { backgroundColor: COLORS.white},
                     headerShadowVisible: false,
                     headerLeft: () => (
                         <ScreenHeaderBtn

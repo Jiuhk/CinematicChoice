@@ -2,14 +2,17 @@ import { SafeAreaView, ImageBackground } from "react-native";
 import { Stack, useRouter, useSearchParams } from "expo-router";
 
 import { COLORS, icons, images } from "../../constants";
-import { ScreenHeaderBtn, InfoContainer } from "../../components";
+import { ScreenHeaderBtn, InfoContainer, VoteFooter } from "../../components";
 
 const Sypnosis = () => {
   const router = useRouter()
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
-      <ImageBackground source={images.sypnosis} resizeMode="cover" style={{flex: 1, alignItems: "center"}}>
+      <ImageBackground
+        source={images.sypnosis}
+        resizeMode="cover"
+        style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Stack.Screen
           options={{
             headerTransparent: true,
@@ -31,8 +34,9 @@ const Sypnosis = () => {
           }}
         />
         <InfoContainer />
+        <VoteFooter />
       </ImageBackground>
-    </SafeAreaView >
+    </SafeAreaView>
   );
 };
 
