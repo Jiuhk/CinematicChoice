@@ -15,7 +15,7 @@ const Stills = () => {
         style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Stack.Screen
           options={{
-            headerTransparent: true,
+            headerShadowVisible: false,
             headerLeft: () => (
               <ScreenHeaderBtn
                 iconUrl={icons.logo}
