@@ -1,8 +1,7 @@
 import { ScrollView, SeparateMovieContainer } from "react-native";
-import { images } from "../../../constants";
 
-import styles from "./moviecontainer.styles"
-import SeparateMovieContainer from "../separateMovieContainer/separateMovieContainer";
+import styles from "./moviecontainer.style";
+import SeparateMovieContainer from "../SeparateMovieContainer";
 
 const MovieContainer = ( ) => {
     return (
