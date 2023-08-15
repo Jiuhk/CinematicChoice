@@ -26,7 +26,7 @@ const Trailer = () => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
       <ImageBackground
-        source={images.sypnosis}
+        source={images.stills}
         resizeMode="cover"
         style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Stack.Screen
@@ -52,11 +52,13 @@ const Trailer = () => {
         <View>
           <YoutubePlayer
             height={300}
+            width={400}
             play={playing}
             videoId={"R-fQPTwma9o"}
             onChangeState={onStateChange}
+        
           />
-          <Button title={playing ? "pause" : "play"} onPress={togglePlaying} />
+          {/* <Button title={playing ? "pause" : "play"} onPress={togglePlaying} /> */}
         </View>
         
         <VoteFooter />
@@ -64,5 +66,8 @@ const Trailer = () => {
     </SafeAreaView>
   );
 };
+
+
+
 
 export default Trailer;
