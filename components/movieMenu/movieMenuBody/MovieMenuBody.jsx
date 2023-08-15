@@ -13,9 +13,9 @@ const MenuBody = () => {
           style={styles.appMenuContainer}
         >
           <MenuItem route={"/sypnosis"} title={"sypnosis"}/>
-          <MenuItem route={"/"} title={"trailer"}/>
+          <MenuItem route={"/trailer"} title={"trailer"}/>
           <MenuItem route={"/stills"} title={"stills"}/>
-          <MenuItem route={"/"} title={"soundtrack"}/>
+          <MenuItem route={"/soundtrack"} title={"soundtrack"}/>
           <MenuItem route={"/review"} title={"review"}/>
           <VoteCount vote="40"/>
         </View>
