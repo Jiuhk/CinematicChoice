@@ -11,7 +11,7 @@ const MenuBody = () => {
         <View
           style={styles.appMenuContainer}
         >
-          <MenuItem route={"/"} title={"movie list"}/>
+          <MenuItem route={"/movielist"} title={"movie list"}/>
           <MenuItem route={"/"} title={"buy votes"}/>
           <MenuItem route={"/"} title={"be members"}/>
           <MenuItem route={"/"} title={"be partners"}/>

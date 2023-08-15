@@ -1,19 +1,16 @@
 import { ScrollView, SeparateMovieContainer } from "react-native";
 import { images } from "../../../constants";
 
-import styles from "./stillscontainer.styles"
+import styles from "./moviecontainer.styles"
+import SeparateMovieContainer from "../separateMovieContainer/separateMovieContainer";
 
-
-const StillsContainer = ( ) => {
+const MovieContainer = ( ) => {
     return (
         <ScrollView style={styles.reviewContainer} >
-            <SeparateMovieContainer/>
-            <SeparateMovieContainer/>
-            <SeparateMovieContainer/>
             <SeparateMovieContainer/>
         </ScrollView>
 
     )
 }
 
-export default StillsContainer;
+export default MovieContainer;

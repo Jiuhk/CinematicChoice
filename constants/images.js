@@ -9,6 +9,10 @@ import stills1 from "../assets/images/stills1.png";
 import stills2 from "../assets/images/stills2.png";
 import stills3 from "../assets/images/stills3.png";
 import stills4 from "../assets/images/stills4.png";
+import movie1 from "../assets/images/movie1.png";
+import movie2 from "../assets/images/movie2.png";
+import movie3 from "../assets/images/movie3.png";
+import movie4 from "../assets/images/movie4.png";
 
 
 export default {
@@ -23,4 +27,9 @@ export default {
     stills2,
     stills3,
     stills4,
+    movie1,
+    movie2,
+    movie3,
+    movie4,
+
 };

@@ -3,6 +3,8 @@ import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 import InfoContainer from "./common/infoContainer/InfoContainer";
 import ReviewContainer from "./common/reviewContainer/ReviewContainer";
 import StillsContainer from "./common/stillsContainer/StillsContainer";
+import MovieContainer from "./common/movieContainer/MovieContainer";
+import SeparateMovieContainer from "./common/separateMovieContainer/separateMovieContainer";
 import VoteFooter from "./common/voteFooter/VoteFooter";
 
 // home screen
@@ -21,6 +23,8 @@ export {
   InfoContainer,
   ReviewContainer,
   StillsContainer,
+  MovieContainer,
+  SeparateMovieContainer,
   VoteFooter,
   Banner,
   MenuBody,
