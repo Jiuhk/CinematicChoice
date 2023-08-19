@@ -13,6 +13,10 @@ import movie1 from "../assets/images/movie1.png";
 import movie2 from "../assets/images/movie2.png";
 import movie3 from "../assets/images/movie3.png";
 import movie4 from "../assets/images/movie4.png";
+import thumbnail1 from "../assets/images/thumbnail1.jpg";
+import thumbnail2 from "../assets/images/thumbnail2.jpg";
+import thumbnail3 from "../assets/images/thumbnail3.jpg";
+import thumbnail4 from "../assets/images/thumbnail4.jpg";
 
 
 export default {
@@ -31,5 +35,8 @@ export default {
     movie2,
     movie3,
     movie4,
-
+    thumbnail1,
+    thumbnail2,
+    thumbnail3,
+    thumbnail4
 };

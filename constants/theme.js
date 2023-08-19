@@ -39,6 +39,7 @@ const LENGTH = {
 }
 
 const HEIGHT = {
+    xTiny: 100,
     tiny: 150,
     midtiny: 200,
     average: 250,

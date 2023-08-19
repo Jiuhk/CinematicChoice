@@ -4,17 +4,26 @@ import { COLORS, FONT, SIZES, LENGTH, HEIGHT } from "../../../constants";
 
 const styles = StyleSheet.create({
   movieContainer:{
-    width: LENGTH.medium,
-    height: HEIGHT.tiny,
-    borderWidth: 0,
-    backgroundColor: COLORS.grey,
-    borderRadius: SIZES.xxxLarge,
-    marginVertical: HEIGHT.tiny,
-    padding: SIZES.medium,
+    marginTop: SIZES.large,
+  },
+  titleContainer: {
+    width: LENGTH.long,
+    height: SIZES.big,
+    backgroundColor: COLORS.black,
+    justifyContent: "center",
+    paddingLeft: SIZES.small,
+  },
+  titleText: {
+    fontFamily: FONT.jacquesFrancois,
+    color: COLORS.white,
+    fontSize: SIZES.large,
+  },
+  imageContainer: {
+    width: LENGTH.long,
+    height: 100,
   },
   image: {
-    marginVertical: SIZES.xSmall,
-
+    height: HEIGHT.xTiny,
   }
 });
 

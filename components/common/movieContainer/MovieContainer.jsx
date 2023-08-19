@@ -1,13 +1,23 @@
-import { ScrollView, SeparateMovieContainer } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 
 import styles from "./moviecontainer.style";
-import SeparateMovieContainer from "../SeparateMovieContainer";
+import { images } from "../../../constants";
 
-const MovieContainer = ( ) => {
+import { useRouter } from "expo-router";
+
+
+const MovieContainer = ({ title, id, image, vote}) => {
+    const router = useRouter();
+
     return (
-        <ScrollView style={styles.reviewContainer} >
-            <SeparateMovieContainer/>
-        </ScrollView>
+        <TouchableOpacity style={styles.movieContainer} onPress={() => router.push(`/movieMenu/${id}`)}>
+            <View style={styles.titleContainer}>
+                <Text style={styles.titleText}>{title}</Text>
+            </View>
+            <View style={styles.imageContainer}>
+                <Image source={images[image]} style={styles.image} />
+            </View>
+        </TouchableOpacity>
 
     )
 }
