@@ -17,7 +17,7 @@ so that I gain inspiration from their unique storytelling approaches."
 In a landscape where traditional distribution is dominant, the accessibility to screenings of undisturbed independent films remains an arduous challenge.
 
 ## 📌 Unique Features:
-The imminent release of our MVP promises an array of compelling features. Users will be presented with a curated selection of movies, each beckoning for their votes. The process is elegantly streamlined, allowing for the purchase of votes online. Once a film amasses the requisite number of votes, it propels into the next phase—a meticulously arranged screening within a supportive cinema. As a gesture of gratitude, the voters-turned-patrons not only gain exclusive VIP tickets but also receive thoughtfully crafted special gifts, acknowledging their pivotal role in breathing life into these cinematic dreams.
+Users will encounter a list of movie selection, each calling for their votes. With a seamless online voting purchase process, films amassing enough votes transition to meticulously arranged screenings in supportive cinemas. Voters-turned-patrons are rewarded with VIP tickets and bespoke gifts, celebrating their pivotal role in bringing cinematic dreams to life.
 
 ✨Featuring Films:
 Each featured film encompasses a brief synopsis, an engaging trailer, evocative stills, an immersive soundtrack, insightful reviews, and a real-time vote count. This holistic approach empowers users to make informed choices and celebrate the essence of independent cinema.
