@@ -4,7 +4,9 @@ Embarking on this journey post-School of Code, I proudly present my self-initiat
 
 ## 🎬 Cinematic Choice (CC)🎬 
 
-Step into the world of Cinematic Choice (CC), a groundbreaking platform empowering movie enthusiasts and independent filmmakers. With a core belief in the magic of independent cinema, CC allows users to curate their cinematic experiences by voting for the films they're excited about. Bridging the gap between audiences and talented filmmakers without traditional distribution, CC reshapes the film industry. Unlike general crowdfunding, CC provides a dedicated space for cinema, sidestepping competition and ensuring filmmakers connect directly with their audience. Welcome to Cinematic Choice, where every vote transforms the way movies come to life.
+Step into the world of Cinematic Choice (CC), a groundbreaking platform empowering movie enthusiasts and independent filmmakers. With a core belief in the magic of independent cinema, CC allows users to curate their cinematic experiences by voting for the films they're excited about. Bridging the gap between audiences and talented filmmakers without traditional distribution, CC reshapes the film industry. Unlike general crowdfunding, CC provides a dedicated space for cinema, sidestepping competition and ensuring filmmakers connect directly with their audience.
+
+Welcome to CC, where every vote transforms the way movies come to life.
 
   ![plot](./FigmaCC.png)
 
@@ -16,8 +18,10 @@ so that I gain inspiration from their unique storytelling approaches."
 ## 📌 Problems:
 In a landscape where traditional distribution is dominant, the accessibility to screenings of undisturbed independent films remains an arduous challenge.
 
+## 📌 Solution:
+Within our platform, users will discover a curated list of film selections, each beckoning for their votes. A seamless online voting process empowers these films to gather the necessary support for their journey towards meticulously arranged screenings in accommodating cinemas. As voters turn into valued patrons, they are graciously offered VIP tickets and personalized gifts—a tribute to their instrumental contribution in transforming independent films into captivating big-screen experiences.
+
 ## 📌 Unique Features:
-Users will encounter a list of movie selection, each calling for their votes. With a seamless online voting purchase process, films amassing enough votes transition to meticulously arranged screenings in supportive cinemas. Voters-turned-patrons are rewarded with VIP tickets and bespoke gifts, celebrating their pivotal role in bringing cinematic dreams to life.
 
 ✨Featuring Films:
 Each featured film encompasses a brief synopsis, an engaging trailer, evocative stills, an immersive soundtrack, insightful reviews, and a real-time vote count. This holistic approach empowers users to make informed choices and celebrate the essence of independent cinema.
