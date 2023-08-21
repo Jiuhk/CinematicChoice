@@ -4,10 +4,7 @@ Embarking on this journey post-School of Code, I proudly present my self-initiat
 
 ## 🎬 Cinematic Choice (CC)🎬 
 
-Step into the world of Cinematic Choice (CC), a revolutionary platform designed to empower both ardent movie enthusiasts and passionate independent filmmakers. Our vision is rooted in the enchantment of independent cinema and the captivating narratives that deserve the grandeur of the silver screen. Cinematic Choice puts the reins in the hands of users, allowing them to curate their ideal cinematic experiences by casting their invaluable votes for the independent films that stir their excitement. Our mission is to bridge the chasm between fervent audiences and exceptionally talented filmmakers who lack the backing of traditional distribution channels, thereby reshaping the very landscape of the film industry itself.
-
-Notably distinct from conventional crowdfunding, CC offers a focused haven exclusively for cinema, alleviating the competitiveness that plagues independent filmmakers on general crowdfunding platforms, ensuring that their creations find the right audience without dilution.
-
+Step into the world of Cinematic Choice (CC), a groundbreaking platform empowering movie enthusiasts and independent filmmakers. With a core belief in the magic of independent cinema, CC allows users to curate their cinematic experiences by voting for the films they're excited about. Bridging the gap between audiences and talented filmmakers without traditional distribution, CC reshapes the film industry. Unlike general crowdfunding, CC provides a dedicated space for cinema, sidestepping competition and ensuring filmmakers connect directly with their audience. Welcome to Cinematic Choice, where every vote transforms the way movies come to life.
 
   ![plot](./FigmaCC.png)
 
