@@ -1,4 +1,4 @@
-# 🎥 Ongoing Personal Project
+# 🎥 Ongoing Personal Project 🎥
 
 Embarking on this journey post-School of Code, I proudly present my self-initiated endeavor:
 
