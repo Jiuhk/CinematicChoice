@@ -1,11 +1,17 @@
-import { SafeAreaView, ImageBackground } from "react-native";
+import { SafeAreaView, ImageBackground, FlatList } from "react-native";
 import { Stack, useRouter, useSearchParams } from "expo-router";
 
 import { COLORS, icons, images } from "../../constants";
 import { ScreenHeaderBtn, StillsContainer, VoteFooter } from "../../components";
 
 const Stills = () => {
-  const router = useRouter()
+  const router = useRouter();
+  const dummyData = [ 
+    "stills1",
+    "stills2",
+    "stills3",
+    "stills4"
+  ]
 
   return ( 
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
@@ -33,7 +39,16 @@ const Stills = () => {
             headerTitle: "",
           }}
         />
-        <StillsContainer />
+         <FlatList
+          data={dummyData}
+          renderItem={({ item }) => (
+            <StillsContainer
+              image={item}
+            />
+          )
+          }
+          keyExtractor={(item) => item}
+        />
         <VoteFooter />
       </ImageBackground>
     </SafeAreaView>
